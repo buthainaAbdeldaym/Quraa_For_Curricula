@@ -8,7 +8,7 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 export class HeaderComponent implements OnInit,OnDestroy{
   currentUrl!: string[];
-  sections:string[]=['الصف الاول البتدائى','الترم الاول'];
+  sections:string[]=['الصف الرابع الابتدائى','الترم الاول'];
   pathes!:string[];
   subscription!: any;
   constructor(private __Router:Router){}
