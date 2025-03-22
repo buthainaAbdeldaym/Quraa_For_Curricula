@@ -5,7 +5,7 @@ import { MainLayoutComponent } from './main-layout/main-layout.component';
 const routes: Routes = [
   {path:'',component:MainLayoutComponent},
   {path:'home',component:MainLayoutComponent},
-  {path:'first-grade',loadChildren: () => import('./first-grade/first-grade.module').then(m => m.FirstGradeModule)}
+  {path:'fourth-grade',loadChildren: () => import('./fourth-grade/fourth-grade.module').then(m => m.FourthGradeModule)}
 ];
 
 @NgModule({

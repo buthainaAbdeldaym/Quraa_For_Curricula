@@ -6,10 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./grades.component.css']
 })
 export class GradesComponent {
-  grades:string[]=['الصف الاول الابتدائى','الصف الثانى الابتدائى','الصف الثالث الابتدائى',
-    'الصف الرابع الابتدائى','الصف الخامس الابتدائى','الصف السادس الابتدائى'
+  grades:string[]=['الصف الرابع الابتدائى','الصف الخامس الابتدائى','الصف السادس الابتدائى'
     ,'الصف الاول الاعدادى','الصف الثانى الاعدادى','الصف الثالث الاعدادى'
     ,'الصف الاول الثانوى','الصف الثانى الثانوى','الصف الثالث الثانوى'
   ]
-  links:string[]=['/first-grade/first-term/first-term-subjects']
+  links:string[]=['/fourth-grade/first-term/first-term-subjects']
 }
